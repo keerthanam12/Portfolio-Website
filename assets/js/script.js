@@ -14,47 +14,32 @@ $(document).ready(function () {
         } else {
             document.querySelector('#scroll-top').classList.remove('active');
         }
-
-        // scroll spy
-        $('section').each(function () {
-            let height = $(this).height();
-            let offset = $(this).offset().top - 200;
-            let top = $(window).scrollTop();
-            let id = $(this).attr('id');
-
-            if (top > offset && top < offset + height) {
-                $('.navbar ul li a').removeClass('active');
-                $('.navbar').find(`[href="#${id}"]`).addClass('active');
-            }
-        });
-    });
-
-    // smooth scrolling
-    $('a[href*="#"]').on('click', function (e) {
-        e.preventDefault();
-        $('html, body').animate({
-            scrollTop: $($(this).attr('href')).offset().top,
-        }, 500, 'linear')
     });
 
     // <!-- emailjs to mail contact form data -->
-    $("#contact-form").submit(function (event) {
-        emailjs.init("user_TTDmetQLYgWCLzHTDgqxm");
-
-        emailjs.sendForm('contact_service', 'template_contact', '#contact-form')
-            .then(function (response) {
-                console.log('SUCCESS!', response.status, response.text);
-                document.getElementById("contact-form").reset();
-                alert("Form Submitted Successfully");
-            }, function (error) {
-                console.log('FAILED...', error);
-                alert("Form Submission Failed! Try Again");
+    $(document).ready(function() {
+        $("#contact-form").submit(function(event) {
+          event.preventDefault(); // Prevent the default form submission
+          console.log("Form submission started");
+      
+          emailjs.init("v_7ccXJDuXfY_6Qne"); // Replace with your EmailJS user ID
+          console.log("EmailJS initialized");
+      
+          emailjs.sendForm('service_87o0muj', 'template_klwou98', '#contact-form') // Replace with your EmailJS service ID and template ID
+            .then(function(response) {
+              console.log('SUCCESS!', response.status, response.text);
+              document.getElementById("contact-form").reset();
+              alert("Form Submitted Successfully");
+            }, function(error) {
+              console.log('FAILED...', error);
+              alert("Form Submission Failed! Try Again");
             });
-        event.preventDefault();
-    });
+        });
+    });      
     // <!-- emailjs to mail contact form data -->
 
 });
+
 
 document.addEventListener('visibilitychange',
     function () {
@@ -68,12 +53,13 @@ document.addEventListener('visibilitychange',
         }
     });
 
+
 async function fetchData(type = "skills") {
     let response
     type === "skills" ?
         response = await fetch("skills.json")
         :
-        response = await fetch("./projects/projects.json")
+        response = await fetch("./project/project")
     const data = await response.json();
     return data;
 }
@@ -99,19 +85,12 @@ fetchData().then(data => {
 });
 
 
-// <!-- tilt js effect starts -->
-VanillaTilt.init(document.querySelectorAll(".tilt"), {
-    max: 15,
-});
-// <!-- tilt js effect ends -->
-
-
 // Start of Tawk.to Live Chat
 var Tawk_API = Tawk_API || {}, Tawk_LoadStart = new Date();
 (function () {
     var s1 = document.createElement("script"), s0 = document.getElementsByTagName("script")[0];
     s1.async = true;
-    s1.src = 'https://embed.tawk.to/60df10bf7f4b000ac03ab6a8/1f9jlirg6';
+    s1.src = 'https://embed.tawk.to/6656c5ba9a809f19fb368156/1hv1f8obm';
     s1.charset = 'UTF-8';
     s1.setAttribute('crossorigin', '*');
     s0.parentNode.insertBefore(s1, s0);
@@ -126,6 +105,7 @@ const srtop = ScrollReveal({
     duration: 1000,
     reset: true
 });
+
 
 /* SCROLL HOME */
 srtop.reveal('.home .content h3', { delay: 200 });
