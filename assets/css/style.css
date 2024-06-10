@@ -639,13 +639,13 @@ header .navbar ul li a:hover {
 /* education media queries ends*/
 /* education section ends */
 
-/* project section starts */
-.project .timeline {
+/* projects section starts */
+.projects .timeline {
   position: relative;
   max-width: 1200px;
   margin: 0 auto;
 }
-.project .timeline::after {
+.projects .timeline::after {
   content: "";
   position: absolute;
   width: 6px;
@@ -656,14 +656,14 @@ header .navbar ul li a:hover {
   margin-left: -3px;
   z-index: -2;
 }
-.project .container {
+.projects .container {
   padding: 10px 40px;
   position: relative;
   background-color: inherit;
   width: 50%;
 }
 /*circles on timeline*/
-.project .container::after {
+.projects .container::after {
   content: "\f0b1";
   position: absolute;
   width: 25px;
@@ -680,14 +680,14 @@ header .navbar ul li a:hover {
   color: #02094b;
   font-family: "Font Awesome\ 5 Free";
 }
-.project .left {
+.projects .left {
   left: 0;
 }
-.project .right {
+.projects .right {
   left: 50%;
 }
 /* arrows pointing right */
-.project .left::before {
+.projects .left::before {
   content: " ";
   height: 0;
   position: absolute;
@@ -700,7 +700,7 @@ header .navbar ul li a:hover {
   border-color: transparent transparent transparent #f68c09;
 }
 /* arrows pointing left  */
-.project .right::before {
+.projects .right::before {
   content: " ";
   height: 0;
   position: absolute;
@@ -712,28 +712,28 @@ header .navbar ul li a:hover {
   border-width: 10px 10px 10px 0;
   border-color: transparent #f68c09 transparent transparent;
 }
-.project .right::after {
+.projects .right::after {
   left: -16px;
 }
-.project .content {
+.projects .content {
   background-color: #f68c09;
   position: relative;
   border-radius: 6px;
 }
-.project .content .tag {
+.projects .content .tag {
   font-size: 1.3rem;
   padding-top: 1.5rem;
   padding-left: 1.5rem;
 }
-.project .content .desc {
+.projects .content .desc {
   margin-left: 1.5rem;
   padding-bottom: 1rem;
 }
-.project .content .desc h3 {
+.projects .content .desc h3 {
   font-size: 1.5rem;
   font-weight: 600;
 }
-.project .content .desc p {
+.projects .content .desc p {
   font-size: 1.2rem;
 }
 
@@ -802,44 +802,44 @@ header .navbar ul li a:hover {
 
 /* Media queries - Responsive timeline on screens less than 600px wide */
 @media screen and (max-width: 600px) {
-  .project {
+  .projects {
     min-height: 80vh;
   }
-  .project .timeline {
+  .projects .timeline {
     margin-top: 2rem;
   }
-  .project .timeline::after {
+  .projects .timeline::after {
     left: 31px;
   }
-  .project .container {
+  .projects .container {
     width: 100%;
     padding-left: 8rem;
     padding-right: 2rem;
   }
-  .project .container::after {
+  .projects .container::after {
     font-size: 2.2rem;
   }
-  .project .container::before {
+  .projects .container::before {
     left: 61px;
     border: medium solid #f68c09;
     border-width: 10px 10px 10px 0;
     border-color: transparent #f68c09 transparent transparent;
   }
-  .project .left::after {
+  .projects .left::after {
     left: 15px;
   }
-  .project .right::after {
+  .projects .right::after {
     left: 15px;
   }
-  .project .right {
+  .projects .right {
     left: 0%;
   }
   .morebtn {
     margin-top: 3rem;
   }
 }
-/* project media queries ends */
-/* project section ends */
+/* projects media queries ends */
+/* projects section ends */
 
 /* experience section starts */
 .experience .timeline {
