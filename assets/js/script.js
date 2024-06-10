@@ -132,9 +132,9 @@ srtop.reveal('.skills .container .bar', { delay: 400 });
 /* SCROLL EDUCATION */
 srtop.reveal('.education .box', { interval: 200 });
 
-/* SCROLL PROJECT */
-srtop.reveal('.project .timeline', { delay: 400 });
-srtop.reveal('.project .timeline .container', { interval: 400 });
+/* SCROLL PROJECTS */
+srtop.reveal('.projects .timeline', { delay: 400 });
+srtop.reveal('.projects .timeline .container', { interval: 400 });
 
 /* SCROLL EXPERIENCE */
 srtop.reveal('.experience .timeline', { delay: 400 });
