@@ -1,5 +1,17 @@
 [
     {
+        "name": "Python",
+        "icon": "https://img.icons8.com/?size=100&id=13441&format=png&color=000000"
+    },
+    {
+        "name": "Java",
+        "icon": "https://img.icons8.com/?size=100&id=Pd2x9GWu9ovX&format=png&color=000000"
+    },
+    {
+        "name": "C",
+        "icon": "https://img.icons8.com/?size=100&id=shQTXiDQiQVR&format=png&color=000000"
+    },
+    {
         "name": "HTML5",
         "icon": "https://img.icons8.com/?size=100&id=20909&format=png&color=000000"
     },
@@ -12,64 +24,52 @@
         "icon": "https://img.icons8.com/?size=100&id=108784&format=png&color=000000"
     },
     {
-        "name": "Java",
-        "icon": "https://img.icons8.com/?size=100&id=Pd2x9GWu9ovX&format=png&color=000000"
+        "name": "React",
+        "icon": "https://img.icons8.com/?size=100&id=wPohyHO_qO1a&format=png&color=000000"
     },
     {
-        "name": "C",
-        "icon": "https://img.icons8.com/?size=100&id=shQTXiDQiQVR&format=png&color=000000"
+        "name": "Node.js",
+        "icon": "https://img.icons8.com/?size=100&id=54087&format=png&color=000000"
     },
     {
-        "name": "Python",
-        "icon": "https://img.icons8.com/?size=100&id=13441&format=png&color=000000"
+        "name": "NPM",
+        "icon": "https://img.icons8.com/?size=100&id=24895&format=png&color=000000"
     },
     {
-        "name": "MySQL",
-        "icon": "https://img.icons8.com/?size=100&id=UFXRpPFebwa2&format=png&color=000000"
-    },
-    {
-        "name": "Mongo DB",
-        "icon": "https://img.icons8.com/?size=100&id=bosfpvRzNOG8&format=png&color=000000"
-    },
-    {
-        "name": "PHP",
-        "icon": "https://img.icons8.com/?size=100&id=13460&format=png&color=000000"
-    },
-    {
-        "name": "PostgreSQL",
-        "icon": "https://img.icons8.com/?size=100&id=38561&format=png&color=000000"
+        "name": "Express.js",
+        "icon": "https://img.icons8.com/?size=100&id=SDVmtZ6VBGXt&format=png&color=000000"
     },
     {
         "name": "Bootstrap",
         "icon": "https://img.icons8.com/?size=100&id=PndQWK6M1Hjo&format=png&color=000000"
     },
     {
-        "name": "ReactJS",
-        "icon": "https://img.icons8.com/?size=100&id=Ax6abTiOhdzW&format=png&color=000000"
-    },
-    {
-        "name": "NodeJS",
-        "icon": "https://img.icons8.com/?size=100&id=54087&format=png&color=000000"
-    },
-    {
         "name": "Django",
         "icon": "https://img.icons8.com/?size=100&id=qV-JzWYl9dzP&format=png&color=000000"
     },
     {
-        "name": "Visual Studio Code",
-        "icon": "https://img.icons8.com/?size=100&id=9OGIyU8hrxW5&format=png&color=000000"
+        "name": "MongoDB",
+        "icon": "https://img.icons8.com/?size=100&id=bosfpvRzNOG8&format=png&color=000000"
     },
     {
-        "name": "PyCharm",
-        "icon": "https://img.icons8.com/?size=100&id=vinpBD5oA3b4&format=png&color=000000"
+        "name": "MySQL",
+        "icon": "https://img.icons8.com/?size=100&id=UFXRpPFebwa2&format=png&color=000000"
     },
     {
-        "name": "GitHub",
-        "icon": "https://img.icons8.com/?size=100&id=63777&format=png&color=000000"
+        "name": "PostgreSQL",
+        "icon": "https://img.icons8.com/?size=100&id=38561&format=png&color=000000"
+    },
+    {
+        "name": "PHP",
+        "icon": "https://img.icons8.com/?size=100&id=13460&format=png&color=000000"
     },
     {
         "name": "Git",
         "icon": "https://img.icons8.com/?size=100&id=20906&format=png&color=000000"
+    },
+    {
+        "name": "GitHub",
+        "icon": "https://img.icons8.com/?size=100&id=63777&format=png&color=000000"
     },
     {
         "name": "Figma",
@@ -80,7 +80,15 @@
         "icon": "https://img.icons8.com/?size=100&id=iWw83PVcBpLw&format=png&color=000000"
     },
     {
-        "name": "Adobe XD",
+        "name": "AdobeXD",
         "icon": "https://img.icons8.com/?size=100&id=4VVL78edhbW9&format=png&color=000000"
-    } 
+    },
+    {
+        "name": "PyCharm",
+        "icon": "https://img.icons8.com/?size=100&id=vinpBD5oA3b4&format=png&color=000000"
+    },
+    {
+        "name": "Visual Studio Code",
+        "icon": "https://img.icons8.com/?size=100&id=9OGIyU8hrxW5&format=png&color=000000"
+    }
 ]
