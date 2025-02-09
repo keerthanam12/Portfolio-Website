@@ -22,7 +22,7 @@ $(document).ready(function () {
           event.preventDefault(); // Prevent the default form submission
           console.log("Form submission started");
       
-          emailjs.init("v_7ccXJDuXfY_6Qne"); // Replace with your EmailJS user ID
+          emailjs.init("oBZbkSfpsHi_YXEnz"); // Replace with your EmailJS Public ID
           console.log("EmailJS initialized");
       
           emailjs.sendForm('service_87o0muj', 'template_klwou98', '#contact-form') // Replace with your EmailJS service ID and template ID
