@@ -8,10 +8,6 @@
         "icon": "https://img.icons8.com/?size=100&id=13441&format=png&color=000000"
     },
     {
-        "name": "C++",
-        "icon": "https://img.icons8.com/?size=100&id=40669&format=png&color=000000"
-    },
-    {
         "name": "HTML5",
         "icon": "https://img.icons8.com/?size=100&id=20909&format=png&color=000000"
     },
@@ -40,20 +36,16 @@
         "icon": "https://img.icons8.com/?size=100&id=yUdJlcKanVbh&format=png&color=000000"
     },
     {
+        "name": "Vite.JS",
+        "icon": "https://img.icons8.com/?size=96&id=dJjTWMogzFzg&format=png&color=000000"
+    },
+    {
         "name": "Express.JS",
         "icon": "https://img.icons8.com/?size=100&id=SDVmtZ6VBGXt&format=png&color=000000"
     },
     {
-        "name": "TypeScript",
-        "icon": "https://img.icons8.com/?size=100&id=uJM6fQYqDaZK&format=png&color=000000"
-    },
-    {
         "name": "Tailwind CSS",
         "icon": "https://img.icons8.com/?size=100&id=x7XMNGh2vdqA&format=png&color=000000"
-    },
-    {
-        "name": "Bootstrap",
-        "icon": "https://img.icons8.com/?size=100&id=PndQWK6M1Hjo&format=png&color=000000"
     },
     {
         "name": "MongoDB",
@@ -62,14 +54,6 @@
     {
         "name": "MySQL",
         "icon": "https://img.icons8.com/?size=100&id=UFXRpPFebwa2&format=png&color=000000"
-    },
-    {
-        "name": "PostgreSQL",
-        "icon": "https://img.icons8.com/?size=100&id=38561&format=png&color=000000"
-    },
-    {
-        "name": "PHP",
-        "icon": "https://img.icons8.com/?size=100&id=13460&format=png&color=000000"
     },
     {
         "name": "Git",
@@ -84,17 +68,21 @@
         "icon": "https://img.icons8.com/?size=100&id=zfHRZ6i1Wg0U&format=png&color=000000"
     },
     {
-        "name": "AdobeXD",
-        "icon": "https://img.icons8.com/?size=100&id=4VVL78edhbW9&format=png&color=000000"
-    },
-    {
         "name": "Canva",
         "icon": "https://img.icons8.com/?size=100&id=iWw83PVcBpLw&format=png&color=000000"
     },
     {
-        "name": "Visual Studio Code",
-        "icon": "https://img.icons8.com/?size=100&id=9OGIyU8hrxW5&format=png&color=000000"
-    }
+        "name": "Netlify",
+        "icon": ""
+    },
+    {
+        "name": "Vercel",
+        "icon": ""
+    },
+    {
+        "name": "Render",
+        "icon": ""
+    },
     {
         "name": "Overleaf",
         "icon": ""
